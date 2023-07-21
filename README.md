@@ -7,3 +7,4 @@ Dosya aşağıdaki gibi görünmektedir:
 =======
 “#deneme”
 >>>>>>> fa6ff72 (readme eklendi)
+#deneme
