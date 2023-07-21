@@ -1,0 +1,66 @@
+/* Yukarıdan aşağı doğru element özelliklerini sıralandı. Önce tüm metine uygulamak istediğim özellikler belirtildi. Tüm p elementlerinin margin ve padding değerlerini sıfırlayarak, html sayfasının verdiği boşluklar ortadan kaldırıldı. Input girilecek kutularda p elementinden sonra oluşan ayarlayabilmek için*/
+
+* p {
+    margin: 0;
+    padding: 0;
+}
+
+a* {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*  display: flex;
+    justify-content: center; 
+    kodu da aynı işlevi görür. */
+.logo {
+    text-align: center;
+}
+/*ARAMA KUTUSU ÖZELLİKLERİ*/
+
+.content1 {
+    text-align: center;
+    background-color: #eeeeee;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 2px;
+}
+
+/*KUTU ÖZELLİKLERİ*/
+.box-left {
+    background-color: rgb(126, 229, 218);
+    float: left;
+    width: 33%;
+    height: 70px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.box-middle {
+    background-color: rgb(112, 204, 194);
+    width: 18%;
+    height: 70px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    font-size: small;
+}
+
+.box-right {
+    background-color: rgb(98, 179, 170);
+    width: 38.3%;
+    height: 80px;
+    float: left;
+    text-align: center;
+    font-size: small;
+    
+}
+/*EN ALT YAZI ÖZELLİKLERİ*/
+.footer {
+    clear: both; 
+    font-size: small;
+    text-align: center;
+}
